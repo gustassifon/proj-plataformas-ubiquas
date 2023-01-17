@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+    font-size: 12pt;
+    background-color: #b6dfff;
+}
+
+#barraSuperior {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    padding: 0;
+    background-color: #2c2059;
+    color: white;
+    width:100%;
+    z-index: 1;
+    border-bottom-left-radius: 5pt;
+}
+
+#tituloMenu a, #menuLink a {
+    color: white;
+    text-decoration: none;
+    font-size: 16pt;
+    padding: 16pt;
+}
+
+#tituloMenu {
+    float: left;
+    height: 100%;
+    padding: 8pt;
+}
+
+#tituloMenu a {
+    height: 100%;
+}
+
+#menuLink {
+    float: right;
+    display: inline;
+    padding-right: 8pt;
+}
+
+#menuLink a {
+    display: inline-block;
+}
+
+#menuLink a:hover, #tituloMenu a:hover {
+    background-color: #553f6c;
+    border-radius: 2pt;
+}
+
+#conteudo {
+    width: 100%;
+    top: 104pt;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+}
+
+#guardaChuva {
+    fill: white;
+    height: 100%;
+}
+
+.linhaLevarGuardaChuva {
+    padding-bottom: 8pt;
+}
+
+.titulo1 {
+    font-size: 16pt;
+    font-weight: 900;
+}
+
+.subTitulo1 {
+    font-size: 16pt;
+    font-weight: 700;
+}
+
+.titulo2 {
+    font-size: 16pt;
+}
+
+.paddingTop8 {
+    padding-top: 8pt;
+}
+
+.marginBottom24 {
+    margin-bottom: 24pt;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+#dashboardOut {
+    display: inline-block;
+    padding: 16pt;
+    width: 50%;
+}
+
+#dashboardIn {
+    width: 100%; 
+    display: grid; 
+}
+
+#cardPrincipal, 
+#cardTemperatura, 
+#cardVento, 
+#devoLevarGuardaChuva {
+    border-radius: 10pt;
+}
+
+#cardPrincipal {
+    float: left;
+    width: 49%;
+    height: 100%;
+    background-color: #322259;
+    color: white;
+}
+
+#cardsDireita {
+    text-align: center;
+    float: right;
+    width: 49%;
+    vertical-align: middle;
+}
+
+#cardTemperatura {
+    background-color: #8edffe;
+    padding: 16pt;
+    height: 100%;
+}
+
+#cardVento {
+    background-color: #8edffe;
+    margin-top: 8pt;
+    padding: 16pt;
+    height: 100%;
+}
+
+#devoLevarGuardaChuva {
+    font-size: 24pt;
+    font-weight: 900;
+    background-color: #22033b;
+    margin-top: 8pt;
+    padding: 24pt;
+    color: white;
+}
+
+#formulario {
+    width: 100%;
+    margin-bottom: 64pt;
+}
+
+#formulario input {
+    width: 70%;
+}
+
+#formulario button {
+    font-weight: 900;
+    color: white;
+    background-color: #322259;
+}
+
+#formulario input,
+#formulario button {
+    border-radius: 5pt;
+    border-style: none;
+    font-size: 16pt;
+    height: 40pt;
+    padding: 0 16pt;
+}
+
+#devoLevarGuardaChuva,
+#cardVento,
+#cardTemperatura,
+#cardPrincipal,
+#barraSuperior {
+    box-shadow: 0 4pt 8pt 0 rgba(0, 0, 0, 0.2), 0 6pt 20pt 0 rgba(0, 0, 0, 0.19);
+}
+
+#conteudoSobre {
+    text-align: left;
+    margin-bottom: 24pt;
+}
+
+#conteudoSobre a {
+    color: #553f6c;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+#conteudoSobre a:hover {
+    text-decoration: underline;
+}
+
+.option {
+    color: black;
+    background-color: red;
+}
