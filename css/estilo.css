@@ -188,13 +188,15 @@ body, html {
     margin-bottom: 24pt;
 }
 
-#conteudoSobre a {
+#conteudoSobre a,
+#conteudo a {
     color: #553f6c;
     text-decoration: none;
     font-weight: 900;
 }
 
-#conteudoSobre a:hover {
+#conteudoSobre a:hover,
+#conteudo a:hover {
     text-decoration: underline;
 }
 
